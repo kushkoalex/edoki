@@ -177,7 +177,7 @@ $(function () {
                     $(".plate").fadeIn(1000, function () {
                         $(".volume").fadeIn(1000, function () {
                             $(".marketing-free").fadeIn(1000, function () {
-                                $(".price").fadeIn(1000, function () {
+                                $(".price_bottom").fadeIn(1000, function () {
                                     $(".sticks").fadeIn(1000, function () {
                                         if (!isOrdered) {
                                             $(".order-block.bottom").fadeIn(1000, function () {

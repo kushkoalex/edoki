@@ -262,8 +262,18 @@
     display: none;
 }
 
-.price {
-    width: 129px;
+.price_top {
+     width: 129px;
+     height: 158px;
+     position: absolute;
+     background: url("../img/price-top.png");
+     margin-left: 190px;
+     margin-top: 68px;
+     display: block;
+ }
+
+.price_bottom {
+    width: 10px;
     height: 158px;
     position: absolute;
     background: url("../img/price.png");
