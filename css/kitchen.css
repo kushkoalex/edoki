@@ -1,0 +1,263 @@
+.kitchen-wrapper
+{
+    padding-top: 35px;
+    height: 600px;
+}
+
+.dish-components {
+    text-align: center;
+
+    height: 210px;
+    width: 1200px;
+}
+
+.dish-components .dish-component {
+    height: 184px;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dish-components .dish-component.egg {
+    width: 147px;
+}
+
+.dish-components .dish-component.mushroom {
+    width: 145px;
+}
+
+.dish-components .dish-component.onion {
+    width: 181px;
+}
+
+.dish-components .dish-component.chicken {
+    width: 116px;
+}
+
+.dish-components .dish-component.noodles {
+    width: 182px;
+}
+
+.dish-components .dish-component.nori {
+    width: 57px;
+}
+
+.dish-components .dish-component.pot {
+    width: 198px;
+}
+
+.egg .image {
+    width: 147px;
+    height: 113px;
+    background: url("../img/egg.png");
+    margin-top: 30px;
+
+}
+
+.onion .image {
+    width: 181px;
+    height: 184px;
+    background: url("../img/onion.png");
+}
+
+.mushroom .image {
+    width: 145px;
+    height: 125px;
+    background: url("../img/mushroom.png");
+    margin-top: 30px;
+}
+
+.chicken .image {
+    width: 116px;
+    height: 180px;
+    background: url("../img/chicken.png");
+}
+
+.noodles .image {
+    width: 182px;
+    height: 166px;
+    background: url("../img/noodles.png");
+}
+
+.nori .image {
+    width: 57px;
+    height: 127px;
+    background: url("../img/nori.png");
+    margin-top: 20px;
+}
+
+.pot .image {
+    width: 198px;
+    height: 166px;
+    background: url("../img/pot.png");
+}
+
+.egg.active .image, .egg.selected .image {
+    /*background: url("../img/egg-active.png");*/
+    background-position: 0 -113px;
+}
+
+.onion.active .image, .onion.selected .image {
+    /*background: url("../img/onion-active.png");*/
+    background-position: 0 -184px;
+}
+
+.mushroom.active .image, .mushroom.selected .image {
+    /*background: url("../img/mushroom-active.png");*/
+    background-position: 0 -125px;
+}
+
+.chicken.active .image, .chicken.selected .image {
+    /*background: url("../img/chicken-active.png");*/
+    background-position: 0 -180px;
+}
+
+.noodles.active .image, .noodles.selected .image {
+    /*background: url("../img/noodles-active.png");*/
+    background-position: 0 -166px;
+}
+
+.nori.active .image, .nori.selected .image {
+    /*background: url("../img/nori-active.png");*/
+    background-position: 0 -127px;
+}
+
+.pot.active .image, .pot.selected .image {
+    /*background: url("../img/pot-active.png");*/
+    background-position: 0 -166px;
+}
+
+.dish-component-underline-wrapper
+{
+    position: absolute;
+    height: 22px;
+    width: inherit;
+    margin-top: 180px;
+}
+
+.dish-component-underline
+{
+    background: url("../img/dish-component-underline.png");
+    width: 95px;
+    height: 22px;
+    margin: 0 auto;
+    display: none;
+}
+
+.dish-component.selected .dish-component-underline
+{
+    display: block;
+}
+
+.nori .dish-component-underline-wrapper
+{
+    margin-left: -20px;
+}
+
+.kitchen
+{
+    text-align: center;
+    width: 1200px;
+    display: none;
+    position: absolute;
+
+
+}
+
+.components {
+    width: 1200px;
+}
+
+.component {
+    height: 184px;
+    margin: 0 5px;
+    cursor: pointer;
+    vertical-align: top;
+    position: absolute;
+}
+.kitchen .egg  {
+    width: 147px;
+    height: 113px;
+    background: url("../img/egg.png");
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.kitchen .onion  {
+    width: 181px;
+    height: 184px;
+    background: url("../img/onion.png");
+    margin-left: 206px;
+}
+
+.kitchen .mushroom  {
+    width: 145px;
+    height: 125px;
+    background: url("../img/mushroom.png");
+    margin-top: 30px;
+    margin-left: 401px;
+}
+
+.kitchen .chicken {
+    width: 116px;
+    height: 180px;
+    background: url("../img/chicken.png");
+    margin-left: 560px;
+}
+
+.kitchen .noodles {
+    width: 182px;
+    height: 166px;
+    background: url("../img/noodles.png");
+    margin-left: 690px;
+}
+
+.kitchen .nori {
+    width: 57px;
+    height: 127px;
+    background: url("../img/nori.png");
+    margin-top: 20px;
+    margin-left: 886px;
+}
+
+.kitchen .pot {
+    width: 198px;
+    height: 166px;
+    background: url("../img/pot.png");
+    margin-left: 957px;
+}
+
+
+.plate
+{
+    width: 383px;
+    height: 377px;
+    position: absolute;
+    background: url("../img/final-plate.png");
+    margin-left: 400px;
+    margin-top: 55px;
+    z-index: -10;
+    display: none;
+}
+
+
+.marketing-free {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background: url("../img/marketing-free.png");
+    margin-left: 850px;
+    margin-top: 70px;
+    display: none;
+}
+
+.sticks
+{
+    width: 37px;
+    height: 350px;
+    position: absolute;
+    background: url("../img/sticks.png");
+    margin-left: 300px;
+    margin-top: 70px;
+    display: none;
+}

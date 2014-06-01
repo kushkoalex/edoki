@@ -1,0 +1,187 @@
+
+
+.cover{
+    height: 322px;
+    background: url("../img/cover.png");
+}
+
+.content
+{
+    height: 1080px;
+}
+
+.salad{
+    position: absolute;
+    background: url("../img/salad.png");
+    width: 296px;
+    height: 257px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+.story{
+    position: absolute;
+    background: url("../img/story-title.png") no-repeat;
+    width: 633px;
+    height: 163px;
+    margin-left: 418px;
+    margin-top: 99px;
+    font-family: 'Neucha', cursive;
+    font-size: 22px;
+    color: #000000;
+padding-top: 66px;
+    line-height: 34px;
+}
+
+.tomatos{
+    position: absolute;
+    background: url("../img/tomatos.png");
+    width: 148px;
+    height: 134px;
+    margin-left: 1030px;
+    margin-top: 251px;
+
+}
+
+.stuff-title{
+    position: absolute;
+    background: url("../img/stuff.png");
+    width: 406px;
+    height: 57px;
+    margin-left: 189px;
+    margin-top: 368px;
+
+}
+
+
+
+.spoon{
+    position: absolute;
+    background: url("../img/spoon.png");
+    width: 148px;
+    height: 497px;
+    margin-left: 88px;
+    margin-top: 440px;
+
+}
+
+
+
+.plate{
+    position: absolute;
+    background: url("../img/plate.png");
+    width: 601px;
+    height: 579px;
+    margin-left: 550px;
+    margin-top: 410px;
+
+}
+
+.stuff{
+    width: 250px;
+    position: absolute;
+    margin-left: 262px;
+    margin-top: 462px;
+    text-align: center;
+    font-family: 'Neucha', cursive;
+    font-size: 25px;
+    color: #000000;
+    line-height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.order-block.top {
+    position: absolute;
+    margin-left: 876px;
+    /*margin-top: 52px;*/
+    width: 320px;
+    font-family: 'Bad Script', cursive;
+    /*border: 1px solid red;*/
+}
+
+.enter-phone-number-text {
+    position: absolute;
+    font-size: 21px;
+    color: #ee2b32;
+    padding-left: 3px;
+    display: none;
+    float: left;
+}
+
+.order-button {
+    background: url("../../img/order-bg.png");
+    width: 197px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 27px;
+    margin-top: 40px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.order-phone-input {
+    border: none;
+    width: 180px;
+    height: 55px;
+    position: absolute;
+    outline: none;
+    background: none;
+    color: #fff;
+    padding-left: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    float: left;
+    display: none;
+}
+
+.order-button .order-text {
+    position: absolute;
+    margin-left: 50px;
+    color: #0054a6;
+    width: 94px;
+    height: 45px;
+    text-align: center;
+    border-bottom: 1px dashed #0054a6;
+
+}
+
+.order-link {
+    position: absolute;
+    font-size: 21px;
+    font-family: 'Bad Script', cursive;
+    color: #0054a6;
+    margin-left: 210px;
+    margin-top: 45px;
+    display: none;
+    float: left;
+}
+
+.order-block.top .check-map {
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Georgia',cursive;
+    color: #71bd00;
+    position: absolute;
+    margin-top: 120px;
+    display: none;
+}
+
+.check-map a {
+    color: #0072bc;
+    border-bottom: 1px dashed #0072bc;
+    text-decoration: none;
+}

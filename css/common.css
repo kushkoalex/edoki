@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 50px;
+    font-family: 'Bad Script', cursive;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footer .copyright {
+    text-align: center;
+    line-height: 20px;
+}
+
+.footer .copyright a {
+    color: #0072bc;
+    text-decoration: underline;
+}
+
+
+.menu
+{
+    height: 66px;
+
+}
+
+.menu a {
+    display: block;
+}
+
+.menu .matafuku-link
+{
+    width: 300px;
+    height: 27px;
+    background: url("../img/matafuku-link.png");
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.menu .salad-link{
+    width: 283px;
+    height: 44px;
+    background: url("../img/salad-link.png");
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+.menu .limo-link
+{
+    width: 331px;
+    height: 39px;
+    background: url("../img/limo.png");
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 850px;
+}

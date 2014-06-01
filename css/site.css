@@ -1,0 +1,183 @@
+body {
+    background-color: #f6f6f5;
+}
+
+.header {
+    padding-top: 1px;
+}
+
+.logo {
+    background: url("../img/logo.png");
+    width: 361px;
+    height: 205px;
+    margin: 38px auto 10px auto;
+}
+
+.slogan {
+    background: url("../img/slogan-empty.png") no-repeat;
+
+    position: relative;
+    margin: 50px auto 0 auto;
+    font-size: 17px;
+    font-family: 'Georgia';
+    font-style: italic;
+    color: #0072bc;
+    padding-top: 26px;
+    padding-left: 52px;
+    padding-right: 52px;
+    width: 803px;
+    height: 130px;
+    line-height: 25px;
+}
+
+.make-dinner {
+    color: #eb2027;
+    width: 309px;
+    height: 118px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background: url("../img/make-dinner-transparent.png");
+    cursor: pointer;
+}
+
+.make-dinner span {
+    font-size: 35px;
+    line-height: 32px;
+    font-family: 'Bad Script', cursive;
+    display: block;
+    padding-top: 40px;
+}
+
+
+
+.order-block.top {
+    position: absolute;
+    margin-left: 876px;
+    margin-top: 52px;
+    width: 320px;
+    font-family: 'Bad Script', cursive;
+    /*border: 1px solid red;*/
+}
+
+.order-block.bottom {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 460px;
+    width: 320px;
+    font-family: 'Bad Script', cursive;
+    /*border: 1px solid red;*/
+    display: none;
+}
+
+.enter-phone-number-text {
+    position: absolute;
+    font-size: 21px;
+    color: #ee2b32;
+    padding-left: 3px;
+    display: none;
+    float: left;
+}
+
+.order-button {
+    background: url("../img/order-bg.png");
+    width: 197px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 27px;
+    margin-top: 40px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.order-phone-input {
+    border: none;
+    width: 180px;
+    height: 55px;
+    position: absolute;
+    outline: none;
+    background: none;
+    color: #fff;
+    padding-left: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    float: left;
+    display: none;
+}
+
+.order-button .order-text {
+    position: absolute;
+    margin-left: 50px;
+    color: #0054a6;
+    width: 94px;
+    height: 45px;
+    text-align: center;
+    border-bottom: 1px dashed #0054a6;
+
+}
+
+.order-link {
+    position: absolute;
+    font-size: 21px;
+    font-family: 'Bad Script', cursive;
+    color: #0054a6;
+    margin-left: 210px;
+    margin-top: 45px;
+    display: none;
+    float: left;
+}
+
+.order-block.top .check-map {
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Georgia',cursive;
+    color: #71bd00;
+    position: absolute;
+    margin-top: 120px;
+    display: none;
+}
+
+.check-map a {
+    color: #0072bc;
+    border-bottom: 1px dashed #0072bc;
+    text-decoration: none;
+}
+
+
+.check-map-bottom{
+    width: 229px;
+    height: 110px;
+    position: absolute;
+    background: url("../img/check-map.png");
+    margin-left: 140px;
+    margin-top: 490px;
+    display: none;
+}
+
+.check-map-bottom .check-map {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 150px;
+    height: 40px;
+    /*cursor: pointer;*/
+}
+
+.check-map-bottom .check-map a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+

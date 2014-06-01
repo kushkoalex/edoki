@@ -1,0 +1,144 @@
+.dish-components-description {
+    height: 186px;
+    text-align: center;
+    margin: 10px 0 65px 0;
+}
+
+.dish-components-description .left-arrow-wrapper,
+.dish-components-description .content,
+.dish-components-description .right-arrow-wrapper {
+    height: 186px;
+    display: inline-block;
+}
+
+.left-arrow-wrapper,
+.right-arrow-wrapper {
+    width: 61px;
+    float: left;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.left-arrow, .right-arrow {
+    width: 61px;
+    height: 60px;
+    margin-top: 55px;
+    cursor: pointer;
+
+
+}
+
+.left-arrow {
+    background: url("../img/left-arrow.png");
+}
+
+.right-arrow {
+    background: url("../img/right-arrow.png");
+}
+
+.dish-components-description .content {
+    width: 1020px;
+    background: url("../img/dish-components-info.png");
+    margin: 0 5px;
+    height: 186px;
+    /*border: 1px solid red;*/
+    text-align: left;
+    /*overflow: hidden;*/
+    float: left;
+}
+
+.dish-components-description .content .dish-components-item {
+    /*border: 1px solid green;*/
+    height: 186px;
+    width: 1020px;
+    /*display: inline-block;*/
+    position: absolute;
+    display: none;
+
+
+
+
+}
+
+.dish-components-description .content .dish-components-item.selected
+{
+    display: block;
+}
+
+
+.dish-components-description .content .dish-components-item  .title {
+    font-size: 34px;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    padding-top: 51px;
+    width: 292px;
+    /*height: 180px;*/
+    display: inline-block;
+    color: #39b54a;
+    float: left;
+}
+
+.dish-components-description .content .dish-components-item  .description-text {
+    font-family: 'Georgia';
+    font-size: 15px;
+    /*height: 180px;*/
+    display: inline-block;
+    width: 700px;
+/*    border: 1px solid red;*/
+    color: #fff;
+    text-align: left;
+    float: left;
+    padding-top: 28px;
+    padding-left: 4px;
+    line-height: 22px;
+    height: 135px;
+    overflow: hidden;
+
+}
+
+
+.dish-components-item#onion .description-text
+{
+padding-top: 45px;
+}
+
+.dish-components-item#mushroom .description-text
+{
+padding-top: 45px;
+}
+
+.dish-components-item#chicken .description-text
+{
+padding-top: 45px;
+}
+
+.dish-components-item#noodles .title
+{
+    padding-top: 42px;
+    line-height: 50px;
+}
+
+.dish-components-item#noodles .description-text
+{
+    padding-top: 45px;
+}
+
+.dish-components-item#nori .description-text
+{
+    padding-top: 45px;
+}
+
+.dish-components-item#pot .title
+{
+    padding-top: 42px;
+    line-height: 50px;
+}
+.dish-components-item#pot .description-text
+{
+    padding-top: 75px;
+}
