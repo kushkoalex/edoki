@@ -171,6 +171,15 @@ body {
     border: none;
 }
 
+.text{
+    background: url("../img/text.png");
+    width: 665px;
+    height: 113px;
+    position: relative;
+    margin-top:10px;
+    margin-left: 315px;
+}
+
 
 
 

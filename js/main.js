@@ -165,7 +165,6 @@ $(function () {
                 delta: 4,
                 components: components,
                 complete: function () {
-                    //pot.fadeOut();
                     $(".egg").fadeOut();
                     $(".onion").fadeOut();
                     $(".mushroom").fadeOut();
@@ -175,13 +174,13 @@ $(function () {
                     $(".pot").fadeOut();
 
                     $(".plate").fadeIn(1000, function () {
-                        $(".volume").fadeIn(1000, function () {
-                            $(".marketing-free").fadeIn(1000, function () {
+                        $(".sticks").fadeIn(1000, function () {
+                            $(".volume").fadeIn(1000, function () {
                                 $(".price_bottom").fadeIn(1000, function () {
-                                    $(".sticks").fadeIn(1000, function () {
+                                    $(".marketing-free").fadeIn(1000, function () {
                                         if (!isOrdered) {
-                                            $(".order-block.bottom").fadeIn(1000, function () {
-                                                $(".check-map-bottom").fadeIn(1000);
+                                            $(".check-map-bottom").fadeIn(1000, function () {
+                                                $(".order-block.bottom").fadeIn(1000);
                                             });
                                         }
                                     });
@@ -191,6 +190,7 @@ $(function () {
                     });
                 }
             });
+
     });
 
 
