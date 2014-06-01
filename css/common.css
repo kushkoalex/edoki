@@ -36,33 +36,43 @@
 
 .menu a {
     display: block;
+    width: 349px;
+    position: absolute;
+    margin-top: 10px;
+
 }
 
 .menu .matafuku-link
 {
-    width: 300px;
-    height: 27px;
+    height: 44px;
     background: url("../img/matafuku-link.png");
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
+}
+
+.menu .matafuku-link.selected
+{
+    background: url("../img/matafuku-link-selected.png");
 }
 
 .menu .salad-link{
-    width: 283px;
-    height: 44px;
+    height: 47px;
     background: url("../img/salad-link.png");
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 450px;
+    margin-left: 440px;
+}
+
+.menu .salad-link.selected
+{
+    background: url("../img/salad-link-selected.png");
 }
 
 .menu .limo-link
 {
-    width: 331px;
-    height: 39px;
-    background: url("../img/limo.png");
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 850px;
+    height: 44px;
+    background: url("../img/limo-link.png");
+    margin-left: 840px;
+}
+
+.menu .limo-link.selected
+{
+    background: url("../img/limo-link-selected.png");
 }

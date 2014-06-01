@@ -1,5 +1,4 @@
-.kitchen-wrapper
-{
+.kitchen-wrapper {
     padding-top: 35px;
     height: 600px;
 }
@@ -127,16 +126,14 @@
     background-position: 0 -166px;
 }
 
-.dish-component-underline-wrapper
-{
+.dish-component-underline-wrapper {
     position: absolute;
     height: 22px;
     width: inherit;
     margin-top: 180px;
 }
 
-.dish-component-underline
-{
+.dish-component-underline {
     background: url("../img/dish-component-underline.png");
     width: 95px;
     height: 22px;
@@ -144,23 +141,19 @@
     display: none;
 }
 
-.dish-component.selected .dish-component-underline
-{
+.dish-component.selected .dish-component-underline {
     display: block;
 }
 
-.nori .dish-component-underline-wrapper
-{
+.nori .dish-component-underline-wrapper {
     margin-left: -20px;
 }
 
-.kitchen
-{
+.kitchen {
     text-align: center;
     width: 1200px;
     display: none;
     position: absolute;
-
 
 }
 
@@ -175,7 +168,8 @@
     vertical-align: top;
     position: absolute;
 }
-.kitchen .egg  {
+
+.kitchen .egg {
     width: 147px;
     height: 113px;
     background: url("../img/egg.png");
@@ -183,14 +177,14 @@
     margin-left: 45px;
 }
 
-.kitchen .onion  {
+.kitchen .onion {
     width: 181px;
     height: 184px;
     background: url("../img/onion.png");
     margin-left: 206px;
 }
 
-.kitchen .mushroom  {
+.kitchen .mushroom {
     width: 145px;
     height: 125px;
     background: url("../img/mushroom.png");
@@ -227,9 +221,7 @@
     margin-left: 957px;
 }
 
-
-.plate
-{
+.plate {
     width: 383px;
     height: 377px;
     position: absolute;
@@ -239,7 +231,6 @@
     z-index: -10;
     display: none;
 }
-
 
 .marketing-free {
     width: 120px;
@@ -251,13 +242,32 @@
     display: none;
 }
 
-.sticks
-{
+.sticks {
     width: 37px;
     height: 350px;
     position: absolute;
     background: url("../img/sticks.png");
     margin-left: 300px;
     margin-top: 70px;
+    display: none;
+}
+
+.volume {
+    width: 91px;
+    height: 74px;
+    position: absolute;
+    background: url("../img/volume.png");
+    margin-left: 555px;
+    margin-top: -10px;
+    display: none;
+}
+
+.price {
+    width: 129px;
+    height: 158px;
+    position: absolute;
+    background: url("../img/price.png");
+    margin-left: 843px;
+    margin-top: 270px;
     display: none;
 }

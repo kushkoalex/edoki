@@ -1,7 +1,9 @@
 .dish-components-description {
     height: 186px;
     text-align: center;
-    margin: 10px 0 65px 0;
+    margin: 10px auto 65px auto;
+    width: 1155px;
+
 }
 
 .dish-components-description .left-arrow-wrapper,
@@ -119,8 +121,9 @@ padding-top: 45px;
 
 .dish-components-item#noodles .title
 {
-    padding-top: 42px;
-    line-height: 50px;
+    padding-top: 50px;
+    line-height: 38px;
+
 }
 
 .dish-components-item#noodles .description-text
@@ -135,8 +138,8 @@ padding-top: 45px;
 
 .dish-components-item#pot .title
 {
-    padding-top: 42px;
-    line-height: 50px;
+    padding-top: 50px;
+    line-height: 38px;
 }
 .dish-components-item#pot .description-text
 {

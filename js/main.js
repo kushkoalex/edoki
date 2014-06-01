@@ -175,13 +175,17 @@ $(function () {
                     $(".pot").fadeOut();
 
                     $(".plate").fadeIn(1000, function () {
-                        $(".marketing-free").fadeIn(1000, function () {
-                            $(".sticks").fadeIn(1000, function () {
-                                if (!isOrdered) {
-                                    $(".order-block.bottom").fadeIn(1000, function () {
-                                        $(".check-map-bottom").fadeIn(1000);
+                        $(".volume").fadeIn(1000, function () {
+                            $(".marketing-free").fadeIn(1000, function () {
+                                $(".price").fadeIn(1000, function () {
+                                    $(".sticks").fadeIn(1000, function () {
+                                        if (!isOrdered) {
+                                            $(".order-block.bottom").fadeIn(1000, function () {
+                                                $(".check-map-bottom").fadeIn(1000);
+                                            });
+                                        }
                                     });
-                                }
+                                });
                             });
                         });
                     });
