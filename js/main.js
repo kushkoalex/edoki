@@ -217,6 +217,8 @@ $(function () {
 
     $(".order-link").click(function () {
         var phone = document.getElementsByClassName("order-phone-input")[0].value;
+        if(phone=='')
+            phone = document.getElementsByClassName("order-phone-input")[1].value;
         console.log(phone);
 
         var data = {};
