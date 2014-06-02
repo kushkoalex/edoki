@@ -120,6 +120,7 @@ $(function () {
 
     $("#btnMakeDinner").click(function () {
         //hideControls();
+        $(".price_top").fadeOut();
         $("#btnMakeDinner").fadeOut();
         $(".order-block.top").fadeOut();
         $(".dish-components").css("visibility", "hidden");
@@ -172,6 +173,7 @@ $(function () {
                     $(".noodles").fadeOut();
                     $(".nori").fadeOut();
                     $(".pot").fadeOut();
+
 
                     $(".plate").fadeIn(1000, function () {
                         $(".sticks").fadeIn(1000, function () {
