@@ -80,7 +80,7 @@ body {
 }
 
 .order-button {
-    background: url("../img/order-bg.png");
+    background: url("../../img/order-bg.png");
     width: 197px;
     height: 55px;
     cursor: pointer;
@@ -148,7 +148,7 @@ body {
     width: 229px;
     height: 110px;
     position: absolute;
-    background: url("../img/check-map.png");
+    background: url("../../img/check-map.png");
     margin-left: 140px;
     margin-top: 490px;
     display: none;
