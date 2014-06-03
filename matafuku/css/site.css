@@ -19,7 +19,7 @@ body {
     position: relative;
     margin: 50px auto 0 auto;
     font-size: 17px;
-    font-family: 'Georgia';
+    font-family: 'Georgia',serif;
     font-style: italic;
     color: #0072bc;
     padding-top: 26px;

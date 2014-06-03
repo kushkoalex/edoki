@@ -3,9 +3,7 @@ $(function () {
     var isOrdered = false;
     $(".fancy").fancybox({ hideOnContentClick: true, showCloseButton: false, padding: 0, margin: 0, opacity: false });
 
-
     $(".order-button").click(function () {
-
         $(".order-text").fadeOut();
         $(".order-phone-input").fadeIn().focus();
         $(".enter-phone-number-text").fadeIn();
@@ -36,18 +34,19 @@ $(function () {
 
     $(".order-link").click(function () {
         var phone = document.getElementsByClassName("order-phone-input")[0].value;
-        console.log(phone);
-
-        var data = {};
-        data.phone = phone;
-        data.from = document.getElementById("fromPage").value;
-        console.log(data);
+        if(phone=='')
+            phone = document.getElementsByClassName("order-phone-input")[1].value;
+        var from  = document.getElementById("fromPage").value;
+        var order = {};
+        order.phone = phone;
+        order.from = from;
+        console.log(order);
         $.ajax({
-            url: "/api/makeorder/" + phone,
+            url: "/api/makeorder",
             contentType: "application/json",
             accepts: "application/json",
             type: "POST",
-            data: data,
+            data: JSON.stringify(order),
             success: function () {
                 $(".order-button").fadeOut();
                 $(".order-link").fadeOut();
@@ -57,19 +56,20 @@ $(function () {
                 alert("Спасибо за заказ!\r\n Едоки свяжутся с Вами в ближайшее время :)");
                 isOrdered = true;
             },
-            error: function (err) {
+            error: function () {
                 $(".order-button").fadeOut();
                 $(".order-link").fadeOut();
                 $(".enter-phone-number-text").fadeOut();
                 $(".check-map").fadeOut();
                 alert("Ошибка при отправке запроса");
-                console.log(err);
-                for (var prop in err) {
-                    console.log(prop);
-                }
+//                console.log(err);
+//                for (var prop in err) {
+//                    console.log(prop);
+//                }
                 isOrdered = true;
             }
         });
     });
+
 
 });

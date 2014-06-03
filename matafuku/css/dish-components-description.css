@@ -86,7 +86,7 @@
 }
 
 .dish-components-description .content .dish-components-item  .description-text {
-    font-family: 'Georgia';
+    font-family: 'Georgia' serif;
     font-size: 15px;
     /*height: 180px;*/
     display: inline-block;

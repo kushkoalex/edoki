@@ -45,34 +45,34 @@
 .menu .matafuku-link
 {
     height: 44px;
-    background: url("../img/matafuku-link.png");
+    background: url("../matafuku/img/matafuku-link.png");
     margin-left: 20px;
 }
 
 .menu .matafuku-link.selected
 {
-    background: url("../img/matafuku-link-selected.png");
+    background: url("../matafuku/img/matafuku-link-selected.png");
 }
 
 .menu .salad-link{
     height: 47px;
-    background: url("../img/salad-link.png");
+    background: url("../matafuku/img/salad-link.png");
     margin-left: 440px;
 }
 
 .menu .salad-link.selected
 {
-    background: url("../img/salad-link-selected.png");
+    background: url("../matafuku/img/salad-link-selected.png");
 }
 
 .menu .limo-link
 {
     height: 44px;
-    background: url("../img/limo-link.png");
+    background: url("../matafuku/img/limo-link.png");
     margin-left: 840px;
 }
 
 .menu .limo-link.selected
 {
-    background: url("../img/limo-link-selected.png");
+    background: url("../matafuku/img/limo-link-selected.png");
 }
