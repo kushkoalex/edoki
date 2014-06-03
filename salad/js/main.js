@@ -40,6 +40,7 @@ $(function () {
 
         var data = {};
         data.phone = phone;
+        data.from = document.getElementById("fromPage").value;
         console.log(data);
         $.ajax({
             url: "/api/makeorder/" + phone,

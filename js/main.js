@@ -192,7 +192,6 @@ $(function () {
                     });
                 }
             });
-
     });
 
 
@@ -221,11 +220,12 @@ $(function () {
         var phone = document.getElementsByClassName("order-phone-input")[0].value;
         if(phone=='')
             phone = document.getElementsByClassName("order-phone-input")[1].value;
-        console.log(phone);
+//        console.log(phone);
 
         var data = {};
         data.phone = phone;
-        console.log(data);
+        data.from = document.getElementById("fromPage").value;
+//        console.log(data);
         $.ajax({
             url: "/api/makeorder/" + phone,
             contentType: "application/json",
