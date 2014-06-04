@@ -1,5 +1,5 @@
 $(function () {
-
+    var isOrdered = false;
 
     var u;
     var dc = $(".dish-component");
